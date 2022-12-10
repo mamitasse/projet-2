@@ -1,0 +1,225 @@
+@media screen and (max-width: 948px) {
+  /**-------GENERALITES--------**/
+
+  body {
+    padding-bottom: 1%;
+    margin-top: 3px;
+    padding-right: 0%;
+    width: 100%;
+
+    font-family: "Raleway", sans-serif;
+    margin-top: 5px;
+    padding-bottom: 1%;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  /*---------------HEADER------------*/
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 61.09px;
+    height: 19px;
+    object-fit: cover;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: 0px;
+    margin-left: 0%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  header ul li {
+    margin-right: 0px;
+  }
+  .item:hover {
+    border-top: none;
+    border-bottom: solid 3px #0065fc;
+  }
+  .AfficherPlus {
+    visibility: collapse;
+  }
+
+  /*------------SECTION RECHERCHE-------*/
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 298px;
+    height: 52px;
+  }
+
+  .subtitle {
+    height: 19px;
+    width: 315px;
+    margin-left: 20px;
+  }
+.bouton_recherche{
+  width: 49px;
+}
+.recherche_icone{
+  visibility: hidden;
+  width: 0px;
+}
+.loupe_icone{
+  visibility: visible;
+}
+
+  /*--------PARTIE FILTRES--------*/
+  
+
+
+ 
+
+  .filters-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    display: flex;
+    flex-wrap: initial;
+    align-items: flex-start;
+
+    width: 298px;
+    height: 57px;
+  }
+  /*-------------HEBERGEMENYTS MARSEILLE---------*/
+
+  .hebergementsMarseille {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: baseline;
+    align-items: baseline;
+    width: max-content;
+   
+    
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .resultatsMarseille {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+  }
+.blockMarseille{
+  width: 100%;
+}
+  .premiersHotels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .imageGauche {
+    width: 335px;
+  }
+  .derniersHotels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+  }
+  .lesPlusPopulaires {
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .chambrePopulaire {
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .h2populaires {
+    margin-left: 20px;
+    padding-left: 0px;
+  }
+
+  .imageDroite {
+    width: 335px;
+  }
+
+  /*----------ACTIVITES A MARSEILLE-------*/
+
+  .textActivitesMarseille {
+    width: 112px;
+  }
+  #t1 {
+    width: 334px;
+    height: 134px;
+  }
+  #t2 {
+    width: 334px;
+    height: 134px;
+  }
+  #t3 {
+    width: 334px;
+    height: 134px;
+  }
+  #t4 {
+    width: 334px;
+    height: 134px;
+  }
+  .englobe {
+    width: 95%;
+    margin-top: 20px;
+    min-width: 334px;
+    min-height: 190px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .activitesMarseille {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+    margin-left: 8%;
+    width: 100%;
+  }
+  .contenu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    padding-top: 25px;
+  }
+  h5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

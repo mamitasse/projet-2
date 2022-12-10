@@ -1,0 +1,105 @@
+
+@media screen and (min-width: 948px) and (max-width: 1124px) {
+  body{
+    height: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-left: 0px;
+  }
+  /**---------------------HEBERGEMENTS A MARSEILLE---------------**/
+   .hebergementsMarseille {
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #f2f2f2;
+  }
+  /**-----------bloc marseille----------**/
+  .blocMarseille {
+     min-width: 580px;
+    height: 626px;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+
+/**---------les plus populaires--------------**/
+
+  .lesPlusPopulaires{
+    width: 883px;
+    height: 278px;
+  }
+  .chambrepopulaire {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    width: 626px;
+  }
+  .chambres {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 252px;
+    height: 144px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-right: 71px;
+
+  }
+  .imagesDroites {
+    width: 106px;
+    height: 144px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+  
+  }
+/**----------activites Marsreille--------------**/
+  
+  #t1 {
+    width: 182px;
+    height: 211px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #t2 {
+    width: 182px;
+    height: 211px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #t3 {
+    width: 182px;
+    height: 211px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #t4 {
+    width: 182px;
+    height: 211px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .activitesMarseille{
+    margin-left: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .textActivitesMarseille{
+    margin-left: 0%;
+  }
+  .activity__full-card{
+    padding-left: 50px;
+  }
+  #activity-1{
+    padding-left: 0%;
+  }
+  #activity-4{
+    padding-right: 0%;
+  }
+ 
+  }
