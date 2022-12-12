@@ -1,5 +1,5 @@
 .body {
-  background: #ffffff;
+  background: #f0f2f6;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -306,6 +306,7 @@ figure {
   background-color: #f2f2f2;
   width: 100%;
   background-size: 100%;
+ 
 }
 .textHebergementsMarseille {
   font-size: 22px;
@@ -343,6 +344,7 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-top: 5px;
 }
 .derniersHotels {
   display: flex;
@@ -430,7 +432,6 @@ figure {
   flex-direction: column;
   justify-content: flex-start;
   align-items: baseline;
-
   border-radius: 20px;
   margin-left: 0px;
 }
@@ -438,7 +439,7 @@ figure {
 .chambrepopulaire {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: baseline;
 }
 .chambres {
@@ -449,15 +450,28 @@ figure {
   height: 144px;
   background: #ffffff;
   border-radius: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-
+#chambre2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.titreIcone{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: left;
+}
+.titreIcone .fas{
+  color: #0065fc;
+  padding-left: 50px;
+}
 .h2populaires {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 0px;
   margin-top: 1px;
-  padding-left: 35px;
+  padding-left: 0px;
 }
 
 .imagesDroites {
