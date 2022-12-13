@@ -3,13 +3,12 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  
   font-family: "Raleway", sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
-  padding-left: 2, 5%;
-  padding-bottom: 2, 5%;
+  padding-left: 10px;
+  padding-bottom:10px;
   margin-top: 5px;
   
 }
@@ -43,7 +42,6 @@
 }
 .menu {
   display: flex;
-
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
@@ -57,23 +55,16 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   color: #000000;
 }
 
 .item:hover {
-  /* Hébergements */
-
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
-
-  /* Blue */
   color: #0065fc;
-
   border-top: solid 3px #0065fc;
 }
 header ul li {
@@ -82,8 +73,6 @@ header ul li {
 
 h1 {
   /* Trouvez votre hébergement pour des vacances de rêve */
-
-  /* Title/Section */
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -118,7 +107,6 @@ h1 {
   flex-direction: row;
   align-items: center;
   border-radius: 0px 15px 15px 0px;
-  text-align: center;
 }
 
 .loupe_icone {
@@ -155,9 +143,6 @@ figure {
   justify-content: center;
   align-items: center;
   border: 1px solid #f2f2f2;
-  background: #f2f2f2;
-  /* Grey */
-  border: 1px solid #f2f2f2;
   border-radius: 15px 0px 0px 15px;
   left: 0%;
   right: 84.94%;
@@ -167,11 +152,26 @@ figure {
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: first baseline;
   align-items: baseline;
   font-size: 16px;
   margin-left: 55px;
   margin-bottom: 30px;
+}
+.info .fas{
+  width: 24px;
+height: 24px;
+border: 1px solid #D9D9D9;
+border-radius: 50%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: #0065fc;
+background: #f2f2f6;
+}
+
+.info .p{
+  padding-left:25px;
 }
 .filters-section {
   display: flex;
@@ -338,6 +338,7 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-right: 30px;
 }
 
 .premiersHotels {
@@ -434,6 +435,7 @@ figure {
   align-items: baseline;
   border-radius: 20px;
   margin-left: 0px;
+  margin-right: 10px;
 }
 
 .chambrepopulaire {
@@ -648,24 +650,7 @@ h5 {
 .info {
   margin-left: 70px;
 }
-#infoIcone {
-  
-  color: #0065fc;
-  width: 24px;
-  height: 24px;
 
-  /* Ellipse 11 */
-
-  width: 24px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
-
-  /* Grey/Tint2 */
-  border: 1px solid #d9d9d9;
-  border-radius: 200px;
-  background: #f2f2f6;
-}
 h3 {
   font-size: 18px;
   font-weight: 700;
