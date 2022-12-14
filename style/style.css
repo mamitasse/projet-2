@@ -163,12 +163,14 @@ height: 24px;
 border: 1px solid #D9D9D9;
 border-radius: 50%;
 display: flex;
-flex-direction: row;
-justify-content: center;
+flex-direction: column;
+justify-content:space-between;
 align-items: center;
 color: #0065fc;
-background: #f2f2f6;
+background: #D9D9D9;
+margin-right: 15px;
 }
+
 
 .info .p{
   padding-left:25px;
@@ -199,27 +201,23 @@ background: #f2f2f6;
 .filters-section p{
   height: 50px;
   padding-left: 5px;
-  padding-right:px;
-  border-radius: 0px 25px 25px 0px;
+  padding-right:5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-weight: 700;
   font-size: 17px;
-  margin-right: 40px;
-  border: #dfdede 2px solid;
+  padding-right: 20px;
 }
+
 .filters .fas{
   height: 50px;
   width: 50px;
-  background-color: #deebff;
-  border-radius: 25px 0 0 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #0065fc;
-  border: #dfdede 2px solid;
 }
 
 
@@ -227,6 +225,7 @@ background: #f2f2f6;
   margin: 15px 40px 0 30px;
   font-size: 18px;
 }
+
 .filters{
   display: flex;
   flex-direction: row;
@@ -234,61 +233,29 @@ background: #f2f2f6;
   align-items:center;
   cursor: pointer;
   transition: 0.8s;
-  
- 
-}
-.filters-section .filters:hover {
-  transform: scale(1.05);
-}
-
-/**.filters-section .filters-icon {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-.filters-section .filters {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  height: 50px;
-  padding-right: 30px;
+  background-color: #f0f2f6;
   border: #dfdede 2px solid;
   border-radius: 25px;
-  margin-right: 40px;
-  cursor: pointer;
-  transition: 0.8s;
-}
-
-.filters-section .filters:hover {
-  transform: scale(1.05);
-}
-
-.filters-section .icon {
   height: 50px;
-  width: 50px;
-  border-radius:25px 0px 0px 25px ;
-  background-color: #deebff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  color: #0065fc;
-  margin-left: -4px;
 }
-/*romantique*/
-/**.icon{}
-.filters-section p {
-  font-weight: 700;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  border-radius: 0px 0px 25px 25px;
-}**/
-/* Rectangle 17 */
+
+.filters:hover{
+  background: #DEEBFF;
+  border: 2px solid #D9D9D9;
+}
 
 
+
+
+#familiale{
+  margin-left: 20px;
+}
+#romantique{
+  margin-left: 20px;
+}
+#animaux{
+  margin-left: 20px;
+}
 
 .filters-section p:hover {
   color: #0065fc;
@@ -313,7 +280,6 @@ background: #f2f2f6;
   font-weight: 700;
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   align-items: center;
   padding-left: 40px;
 }
@@ -321,7 +287,6 @@ background: #f2f2f6;
 .textActivitesMarseille {
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   font-weight: 700;
   padding-left: 0px;
   margin-left: 0px;
@@ -339,6 +304,7 @@ background: #f2f2f6;
   flex-direction: column;
   justify-content: flex-start;
   margin-right: 30px;
+  border-radius: 20px;
 }
 
 .premiersHotels {
@@ -398,7 +364,7 @@ background: #f2f2f6;
   font-size: 14px;
   margin-bottom: 1px;
   margin-top: 4px;
-  font: weight 600px;
+  font-weight:600;
 }
 .hotel-name {
   margin-top: 0px;
