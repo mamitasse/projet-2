@@ -7,6 +7,9 @@
     margin-top: 5px;
     padding-left: 0px;
   }
+  .filters-icon2{
+    flex-wrap: wrap;
+  }
   /**---------------------HEBERGEMENTS A MARSEILLE---------------**/
    .hebergementsMarseille {
     display: flex;
