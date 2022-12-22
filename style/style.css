@@ -1,6 +1,8 @@
 /**-------GENERALITES--------**/
-
-.body {
+html{
+  max-width: 1400px;
+}
+body {
   background: #f0f2f6;
   width: 100%;
   display: flex;
@@ -14,7 +16,7 @@
   margin-top: 5px;
   }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;

@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 948px) and (max-width: 1124px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   body{
     height: auto;
     margin-left: 25px;
@@ -33,15 +33,15 @@
 /**---------les plus populaires--------------**/
 
   .lesPlusPopulaires{
-    width: 883px;
+    width: 100%;
     height: 278px;
+    margin-top: 40px;
   }
   .chambrepopulaire {
     display: flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:flex-start;
-    width: 626px;
   }
   .chambres {
     display: flex;
@@ -52,7 +52,7 @@
     background: #ffffff;
     border-radius: 20px;
     margin-top:30px ;
-    margin-right: 71px;
+    margin-right: 20px;
 
   }
   .imagesDroites {
@@ -103,3 +103,4 @@
   }
  
   }
+
