@@ -496,6 +496,7 @@ figure:hover{
   width: 137px;
   height: 144px;
   border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
 }
 /*------------------ACTIVITES MARSEILLE-----------*/
 .englobe {
@@ -537,11 +538,8 @@ figure:hover{
 #t3 {
   width: 302px;
   height: 445px;
-  transform: scale(1.03);
-  transition: ease 0.4s;
   border-radius: 20px 20px 0 0;
-  height: 445px;
-}
+ }
 
 #t4 {
   width: 302px;

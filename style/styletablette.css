@@ -46,7 +46,7 @@
   .chambres {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 252px;
     height: 144px;
     background: #ffffff;
@@ -62,6 +62,11 @@
     object-fit: cover;
   
   }
+  .classement2{
+    display: flex;
+    justify-content: flex-end;
+  }
+
 /**----------activites Marsreille--------------**/
   
   #t1 {
