@@ -331,6 +331,8 @@ margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 20px;
 
 }
 .blocMarseille {
@@ -340,6 +342,7 @@ margin-right: 15px;
   justify-content: flex-start;
   margin-right: 30px;
   border-radius: 20px;
+ 
 }
 
 .premiersHotels {
@@ -421,7 +424,9 @@ figure:hover{
 }
 figure{
   border-radius: 20px;
-  
+  width: 246px; 
+  height: 199px;
+
 }
 
 /*----------les plus populaires-------*/
@@ -435,6 +440,7 @@ figure{
   padding-left: 10px;
   align-items: baseline;
   border-radius: 0px 20px 20px 0px;
+  width: 100%;
 }
 
 
@@ -457,6 +463,10 @@ figure{
   border-radius: 20px;
   margin-left: 0px;
   margin-right: 10px;
+  padding-right: 15px;
+  padding-top: 18px;
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .chambrepopulaire {
@@ -644,4 +654,8 @@ footer a {
 }
 .activity__full-card{ 
 box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75)
+}
+#bloc1hm figcaption{
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 8px;
 }
