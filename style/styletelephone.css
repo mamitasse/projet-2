@@ -6,7 +6,6 @@
     margin-top: 3px;
     padding-right: 0%;
     width: 100%;
-
     font-family: "Raleway", sans-serif;
     margin-top: 5px;
     padding-bottom: 1%;
@@ -142,11 +141,16 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    width: 335px;
+    padding-right: 70px;
+    
   }
 .blocMarseille{
   width: 100%;
   margin-top: 40px;
   margin-left: 0px;
+  width: 420px;
+  margin-bottom: 30px;
 }
   .premiersHotels {
     display: flex;
@@ -154,6 +158,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    margin: bottom 0px;;
   }
   .imageGauche {
     width: 335px;
@@ -166,19 +171,31 @@
     width: 100%;
 
   }
+  .card{
+    width: 335px;
+    margin-bottom: 30px;
+    
+  }
+  .case-text{
+    width: 335px;
+  }
+  
   /**---------------------LES PLUS POPULAIRES----------**/
   .lesPlusPopulaires {
     align-items: baseline;
     justify-content: space-between;
     width: 100%;
-    margin-left: 20px;
+    padding-left: 28px;
+    width: 335px;
+    padding-right: 40px;
+   
   }
   .chambrePopulaire {
     align-items: baseline;
     justify-content: space-between;
   }
   .h2populaires {
-    margin-left: 20px;
+    margin-left: 0px;
     padding-left: 0px;
   }
 
@@ -189,11 +206,22 @@
     margin-left: 0px;
     margin-right:0px;
   }
+  .case-text2{
+    width: 100%;
+  }
+  .classement2{
+    margin-top: 50px;
+    
+  }
+  .chambres{
+    width: 335px;
+  }
 
   /*----------ACTIVITES A MARSEILLE-------*/
 
   .textActivitesMarseille {
     width: 112px;
+    padding-left: 28px;
   }
   #t1 {
     width: 100%;
@@ -229,10 +257,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
    
-    margin-left: 8%;
+    
     width: 100%;
   }
 
