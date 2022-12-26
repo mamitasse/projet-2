@@ -9,12 +9,18 @@
     font-family: "Raleway", sans-serif;
     margin-top: 5px;
     padding-bottom: 1%;
+    justify-content: flex-start;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: baseline;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   /*---------------HEADER------------*/
@@ -129,7 +135,7 @@
   .hebergementsMarseille {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
+    justify-content:flex-start;
     align-items: flex-start;
     width: 100%;
     
@@ -279,4 +285,6 @@
     flex-wrap: wrap;
   }
 }
+
+
 
