@@ -3,15 +3,13 @@ html{
   max-width: 1400px;
 }
 body {
-  
-  width: 100%;
+   
   display: flex;
   flex-direction: column;
   font-family: "Raleway", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:20px;
+  margin-right:20px;;
   margin-top: 5px;
-  padding-left: 10px;
   padding-bottom:10px;
   margin-top: 5px;
   }
@@ -20,8 +18,8 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  margin-right: 30px;
-  width: 100%;
+  margin-right: 0px;
+ 
 }
 a{
   color: #000000;
@@ -29,10 +27,14 @@ a{
 }
 
   /*---------------HEADER------------*/
-.topnav {
+header{
+  width: 85%;
+}
+  .topnav {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+
 }
 .topnav a {
   color: black;
@@ -88,13 +90,19 @@ h1 {
   line-height: 26px;
   color: #000000;
   margin-left: 45px;
-}
+  margin-right: 0px;
+  width: 60%;
+ }
 .subtitle {
   font-size: 16px;
   display: inline;
   text-decoration: none;
   margin-left: 45px;
   font-weight: 400;
+ 
+}
+.title{
+  width: 85%;
 }
 
   /*------------SECTION RECHERCHE-------*/
@@ -115,6 +123,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   border-radius: 0px 15px 15px 0px;
+  margin-left: 30px;
 }
 
 .loupe_icone {
@@ -136,6 +145,7 @@ h1 {
   align-items: baseline;
   width: 332px;
   height: 49px;
+  margin-right: 0px;
 }
 figure {
   display: flex;
@@ -158,16 +168,9 @@ input::placeholder {
   font-size: 18px;
   padding-right: 114px;
   padding: 14px;
+ 
 
-  /* Rectangle 13 */
 
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #ffffff;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
 }
 
 form input {
@@ -210,24 +213,32 @@ form button {
   font-size: 16px;
   margin-left: 55px;
   margin-bottom: 30px;
+  width: 80%;
 }
 .info .fas{
-  width: 24px;
+width: 24px;
 height: 24px;
 border: 1px solid #D9D9D9;
 border-radius: 50%;
 display: flex;
-flex-direction: column;
-justify-content:space-between;
+justify-content: center;
+
 align-items: center;
 color: #0065fc;
-background: #D9D9D9;
+
 margin-right: 15px;
 }
 
 
 .info .p{
   padding-left:0px;
+}
+#economique{
+  margin-left: 0px;
+}
+.filters-section h3{
+  margin-right: 0px;
+  padding-right: 0px;
 }
 .filters-section {
   display: flex;
@@ -236,6 +247,7 @@ margin-right: 15px;
   align-items: flex-start;
   margin-top: 40px;
   margin-left: 0px;
+  width: 80%;
 }
 .filters-icon{
   display: flex;
@@ -261,12 +273,12 @@ margin-right: 15px;
   justify-content: center;
   font-weight: 700;
   font-size: 17px;
-  padding-right: 0px;
+  padding-right: 5px;
 }
 
 .filters .fas{
-  height: 50px;
-  width: 50px;
+  max-height: 50px;
+  max-width: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -289,9 +301,9 @@ margin-right: 15px;
   transition: 0.8s;
   background-color: #ffffff;
   border: #dfdede 2px solid;
-  border-radius: 25px;
+ border-radius: 25px;
   height: 50px;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .filters:hover{
@@ -304,6 +316,7 @@ margin-right: 15px;
 }
 .icon .fas {
   color: #0065fc;
+  padding: 10px;
   
 }
   /*-------------HEBERGEMENYTS MARSEILLE---------*/
@@ -312,18 +325,21 @@ margin-right: 15px;
   flex-direction: row;
   align-items: baseline;
   justify-content: flex-start;
-  background-color: #f2f2f2;
-  width: 100%;
-  background-size: 100%;
- 
+  
+  margin-bottom: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+  width: 90%;
 }
 .textHebergementsMarseille {
   font-size: 22px;
   font-weight: 700;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding-left: 40px;
+  width: 90%;
 }
 
 /*----------------------BLOC MARSEILLE----------*/
@@ -331,8 +347,7 @@ margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #f2f2f2;
-  border-radius: 20px;
+  
 
 }
 .blocMarseille {
@@ -340,8 +355,12 @@ margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 30px;
+  margin-right: 20px;
+  padding-left: 20px;
   border-radius: 20px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
  
 }
 
@@ -359,7 +378,7 @@ margin-right: 15px;
   }
 
   .imageGauche {
-    width: 246px;
+    width: 200px;
     height: 124px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -381,8 +400,20 @@ margin-right: 15px;
   background-color: #ffffff;
   margin-top: 0px;
   border-radius: 20px;
-  width: 246px;
+  max-width: 300px;
   height: 199px;
+  border:5px solid #ffffff;
+}
+  .card:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.6);
+}
+figure{
+  border-radius: 20px;
+  max-width: 300px; 
+  height: 199px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 .hotel-price {
   font-size: 14px;
@@ -413,21 +444,16 @@ margin-right: 15px;
 }
 .fa-star {
   color: #0065fc;
-  height: 12px;
-  width: 12px;
-  padding: 7px;
+  height: 10px;
+  width: 10px;
+  padding: 8px;
 }
 figure:hover{
   cursor: pointer;
   transform: scale(1.03);
   transition: ease 0.4s;
 }
-figure{
-  border-radius: 20px;
-  width: 246px; 
-  height: 199px;
 
-}
 
 /*----------les plus populaires-------*/
 .case-text2 {
@@ -436,21 +462,20 @@ figure{
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   padding-left: 10px;
   align-items: baseline;
   border-radius: 0px 20px 20px 0px;
-  width: 100%;
+  
 }
 
 
 
 
 .classement2 {
-  margin-top: 30px;
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
-  height: 15px;
+  height: 90px;
 }
 
 
@@ -461,13 +486,15 @@ figure{
   justify-content: flex-start;
   align-items: baseline;
   border-radius: 20px;
-  margin-left: 0px;
-  margin-right: 10px;
-  padding-right: 15px;
-  padding-top: 18px;
-  padding-left: 15px;
-  padding-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  margin-right: 0px;
+  width: 380px; 
+  
 }
+
 
 .chambrepopulaire {
   display: flex;
@@ -479,11 +506,13 @@ figure{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 343px;
+  width: 280px;
   height: 144px;
   background: #ffffff;
   border-radius: 20px;
   margin-top: 20px;
+  border:5px solid #ffffff;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.300);
 }
 #chambre2{
   margin-top: 30px;
@@ -492,12 +521,15 @@ figure{
 .titreIcone{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: baseline;
-  justify-content: left;
+  width: 85%;
 }
 .titreIcone .fas{
   color: #0065fc;
-  padding-left: 50px;
+  margin-left: 30px;
+  
+
 }
 .h2populaires {
   font-size: 22px;
@@ -505,13 +537,17 @@ figure{
   margin-bottom: 0px;
   margin-top: 1px;
   padding-left: 0px;
+  width: 100%;
 }
 
 .imagesDroites {
-  width: 137px;
+  width: 120px;
   height: 144px;
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
+}
+.classement2 .fas{
+  padding: 8px;
 }
 /*------------------ACTIVITES MARSEILLE-----------*/
 .englobe {
@@ -520,6 +556,7 @@ figure{
   align-items: baseline;
   border-radius: 25px;
   padding: 0px;
+
 }
 
 .textActivitesMarseille {
@@ -528,50 +565,78 @@ figure{
   font-weight: 700;
   padding-left: 0px;
   margin-left: 0px;
-  margin-left: 40px;
+  margin-left: 30px;
   font-size: 22px;
-}
+  max-width: 70%;
+    }
 
 .activity__full-card {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 0px;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-right: 0px;
+  max-width: 240px;
+  margin-bottom: 20px;
+  
+}
+#activity-1{
+  margin-left: 10px;
 }
 #t1 {
-  width: 302px;
+ max-width: 240px;
   height: 445px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
+
 }
 
 #t2 {
-  width: 302px;
+  max-width: 240px;
   height: 445px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 #t3 {
-  width: 302px;
+  max-width: 240px;
   height: 445px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
  }
 
 #t4 {
-  width: 302px;
+  max-width: 240px;
   height: 445px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 
 #hebergements #activites:hover {
   color: #0065fc;
 }
+.activitesMarseille {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin-top: 0px;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 85%;
+  
+
+}
 
 /*--------------FOOTER------------*/
 
 .contenu-footer {
-  width: 100%;
-  max-width:1330px ;
+ 
+  max-width:1230px ;
   background: #f2f2f2;
   display: flex;
   justify-content: space-around;
@@ -579,12 +644,13 @@ figure{
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   position: absolute;
-  padding-left: 40px;
+  padding-left: 20px;
   padding-top: 45px;
-  padding-right: 100px;
-  padding-bottom: 15px;
-  margin-bottom: auto;
-  margin-right: 53px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  
+  margin-right: 0px;
+  width: 90%;
 }
 
 .blocFooterAPropos {
@@ -599,16 +665,7 @@ h3 {
   font-size: 18px;
   color: #000000;
 }
-.activitesMarseille {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #ffffff;
-  width: auto;
-  margin-top: 0px;
-  padding-left: 50px;
-  margin-right: 50px;
-}
+
 .hotel-name {
   font-size: 16px;
   color: #000000;

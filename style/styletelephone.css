@@ -5,22 +5,28 @@
     padding-bottom: 1%;
     margin-top: 3px;
     padding-right: 0%;
-    width: 100%;
+    width: 90%;
     font-family: "Raleway", sans-serif;
     margin-top: 5px;
     padding-bottom: 1%;
-    justify-content: flex-start;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-  main {
-    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     align-items: baseline;
     margin-left: 0%;
     margin-right: 0%;
+    padding-left: 0px;
+    width:95%;
   }
 
   /*---------------HEADER------------*/
@@ -61,140 +67,198 @@
   h1 {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    align-items: flex-start;
+    margin-left: 0px;
     width: 298px;
-    height: 52px;
+    min-height: 52px;
   }
 
   .subtitle {
-    height: 19px;
-    width: 315px;
-    margin-left: 20px;
+    min-height: 19px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 30px;
   }
-.bouton_recherche{
-  width: 49px;
-}
-.recherche_icone{
-  visibility: hidden;
-  width: 0px;
-}
-.loupe_icone{
-  visibility: visible;
-}
+  .bouton_recherche {
+    width: 49px;
+    border-radius: 0 15px 15px 0;
+    padding-left: 0px;
+  }
+  input::placeholder {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 150px;
+  }
+  .recherche_icone {
+    visibility: hidden;
+    width: 0px;
+  }
+  .loupe_icone {
+    visibility: visible;
+    padding-left: 17px;
+  }
+  form input {
+    padding-left: 0px;
+    width: 180px;
+  }
+  .carte_icone {
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .research-box {
+    margin-left: 0px;
+    width: 180px;
+  }
 
   /*--------PARTIE FILTRES--------*/
- 
-#economique{
-  margin-left: 0px;
-}#romantique{
-  margin-left: 0px;
-}
-.filters-icon{
-  margin-left: 0px;
-  padding-left: 0%;
-}
-.filters-section {
+
+  #economique {
+    margin-left: 0px;
+  }
+  #romantique {
+    margin-left: 0px;
+  }
+
+  .filters-icon {
+    margin-left: 0px;
+    padding-left: 0%;
+  }
+  .filters-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    width: 100%;
-    margin-left: 0px;
+    width: 90%;
     padding-left: 0%;
   }
-  .filters{
-    height: 50px;
+  .filters {
+    width: 125px;
+    padding-left: 10px;
+    margin-left: 30px;
   }
-  .filters p{
+  .filters p {
     font-size: 11px;
-    width: 115px;
-    margin-right: 10px;
+    width: 100px;
+    margin-right: 0px;
   }
-.filters-section h3{
-  margin-bottom: 20px;
-  margin-left: 20px;
+  .filters-section h3 {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .filters-icon {
+    display: flex;
+    margin-left: 30px;
+    width: 80%;
+  }
+  .filters-icon2 {
+    display: flex;
+    width: 80%;
+  }
 
-}
-.info {
+  .info {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 90%;
   }
 
-.info p {
+  .info p {
     display: flex;
     flex-wrap: initial;
     align-items: flex-start;
-
-    width: 298px;
+    min-width: 298px;
     height: 57px;
+  }
+
+  .filters-section .fas {
+    padding-right: 8px;
   }
   /*-------------HEBERGEMENYTS MARSEILLE---------*/
 
   .hebergementsMarseille {
     display: flex;
     flex-direction: column-reverse;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
-    
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
-/*----------------------BLOC MARSEILLE----------*/
+  /*----------------------BLOC MARSEILLE----------*/
   .resultatsMarseille {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
-    width: 335px;
-    padding-right: 70px;
-    
+    width: 90%;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    margin-right: 0px;
   }
-.blocMarseille{
-  width: 100%;
-  margin-top: 40px;
-  margin-left: 0px;
-  width: 420px;
-  margin-bottom: 30px;
-}
+  .blocMarseille {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    background-color: #ffffff;
+    border-radius: 0px;
+  }
   .premiersHotels {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
-    margin: bottom 0px;;
+    width: 85%;
+    margin-bottom: 0px;
   }
+
   .imageGauche {
-    width: 335px;
+    min-width: 300px;
+    object-fit: cover;
+    width: 85%;
   }
+
   .derniersHotels {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    width: 85%;
+  }
 
-  }
-  .card{
-    width: 335px;
+  .card {
+    min-width: 300px;
     margin-bottom: 30px;
-    
+    margin-left: 0px;
+    margin-right: 0px;
   }
-  .case-text{
-    width: 335px;
+
+  .case-text {
+    min-width: 300px;
+    width: 85%;
   }
-  
+  figcaption {
+    width: 85%;
+  }
   /**---------------------LES PLUS POPULAIRES----------**/
   .lesPlusPopulaires {
     align-items: baseline;
     justify-content: space-between;
-    width: 100%;
-    padding-left: 28px;
-    width: 335px;
-    padding-right: 40px;
-   
+    padding-left: 0px;
+    width: 90%;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-radius: 0px;
+    margin-left: 0px;
   }
   .chambrePopulaire {
     align-items: baseline;
@@ -206,68 +270,88 @@
   }
 
   .imageDroite {
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 246px;
+   
+   
     object-fit: cover;
     margin-left: 0px;
-    margin-right:0px;
+    margin-right: 0px;
+   
   }
-  .case-text2{
-    width: 100%;
-  }
-  .classement2{
+
+  .classement2 {
     margin-top: 50px;
-    
   }
-  .chambres{
-    width: 335px;
+  .chambres {
+    min-width: 260px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  aside{
+    width: 100%;
+    min-width: 280px;
   }
 
   /*----------ACTIVITES A MARSEILLE-------*/
 
   .textActivitesMarseille {
     width: 112px;
-    padding-left: 28px;
+    padding-left: 10px;
+    margin-top: 0px;
   }
   #t1 {
-    width: 100%;
+    min-width: 300px;
+   
     height: 134px;
+    width: 85%;
     object-fit: cover;
   }
 
   #t2 {
-    width:100%;
+    min-width: 300px;
     height: 134px;
+    width: 85%;
     object-fit: cover;
   }
   #t3 {
-    width:100%;
+    min-width: 300px;
     height: 134px;
+    width: 85%;
     object-fit: cover;
   }
   #t4 {
-    width:100%;
+    min-width: 300px;
     height: 134px;
+    width: 85%;
     object-fit: cover;
   }
-  .englobe {
-   
-    margin-top: 20px;
-    min-width: 334px;
-    min-height: 190px;
-    object-fit: cover;
-    width: 100%;
+
+  .activity__full-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    min-width: 300px;
+    width: 85%;
+    
   }
+ 
+
+
+
   .activitesMarseille {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    padding-left: 30px;
-    padding-right: 20px;
-   
+    padding-left: 0px;
+    padding-right: 0px;
     
-    width: 100%;
   }
 
   /**------------------------FOOTER---------------------**/
@@ -279,12 +363,33 @@
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     padding-top: 25px;
+    width: 90%;
+    margin-right: 0px;
+    padding-right: 0px;
+  
   }
   h5 {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .blocFooterAPropos{
+    margin-bottom: 30px;
+  }
+  .blocFooterAPropos h3{
+    margin-bottom: 8px;
+  }
+  .blocFooterNosHebergements{
+    margin-bottom: 30px;
+
+  }
+  .blocFooterNosHebergements h3{
+    margin-bottom: 8px;
+  }
+  .blocFooterAssistance{
+    margin-bottom: 30px;
+  }
+  .blocFooterAssistance{
+    margin-bottom: 8px;
+  }
 }
-
-
-
