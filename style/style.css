@@ -28,14 +28,14 @@ a {
 
 /*---------------HEADER------------*/
 header {
-  width: 95%;
+  width: 97%;
 }
 .topnav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
-  width: 80%;
+  width: 90%;
 }
 .topnav a {
   color: black;
@@ -349,7 +349,7 @@ form button {
   margin-left: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 50%;
+  width: 60%;
 }
 
 .premiersHotels {
@@ -357,12 +357,14 @@ form button {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5px;
+  width: 98%;
 }
 .derniersHotels {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 25px;
+  width: 98%;
 }
 
 .imageGauche {
@@ -490,7 +492,7 @@ figure:hover {
   padding-top: 20px;
   margin-left: 0px;
   padding-bottom: 40px;
-  width: 28%;
+  width: 33%;
 }
 
 .chambrepopulaire {
@@ -560,10 +562,9 @@ figure:hover {
 .textActivitesMarseille {
   font-weight: 700;
   padding-left: 0px;
-  margin-left: 0px;
   font-size: 22px;
   width: 60%;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .activity__full-card {
@@ -575,37 +576,37 @@ figure:hover {
   border-radius: 25px;
   margin-left: 20px;
   margin-right: 5px;
-  width: 200px;
+  width: 260px;
   margin-bottom: 20px;
 }
 
 #activity-1 {
-  margin-left: 0px;
+  margin-left: 40px;
 }
 
 #t1 {
-  width: 200px;
+  width:260px;
   height: 400px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 #t2 {
-  width: 200px;
+  width: 260px;
   height: 400px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 #t3 {
-  width: 200px;
+  width: 260px;
   height: 400px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 
 #t4 {
-  width: 200px;
+  width: 260px;
   height: 400px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -615,12 +616,11 @@ figure:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   background-color: #ffffff;
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 0px;
-  width: 90%;
+  width: 95%;
 }
 .card__title {
   padding-top: 20px;
@@ -648,12 +648,12 @@ figure:hover {
   justify-content: space-around;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  width: 90%;
+  width: 94%;
   padding-left: 0px;
   padding-top: 45px;
   padding-bottom: 25px;
   margin-right: 0px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 h3 {
