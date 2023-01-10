@@ -47,6 +47,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 95%;
+    margin-bottom: 25px;
   }
   .item{
     margin-left: 10px;
@@ -68,13 +69,11 @@ header{
   display: flex;
   flex-direction:column;
   justify-content: center;
-  
- 
   margin-left: 20px;
   width: 90%;
   min-height: 52px;
-
 }
+
   h1 {
     display: flex;
     flex-direction: row;
@@ -88,7 +87,8 @@ header{
     min-height: 19px;
     width: 90%;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 
   }
   .bouton_recherche {
@@ -199,6 +199,8 @@ header{
     width: 100%;
     background-color: #ffffff;
     border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
    
   }
   /*----------------------BLOC MARSEILLE----------*/
@@ -219,7 +221,8 @@ header{
     align-items: center;
     width: 90%;
     margin-top: 40px;
-    margin: auto;
+   margin-left: 0px;
+   margin-right: 0px;
     margin-bottom: 20px;
     background-color: #ffffff;
     border-radius: 0px;
@@ -302,7 +305,7 @@ header{
   }
 
   .chambres {
-    min-width: 260px;
+    min-width: 300px;
     margin-right: 10px;
     margin-left: 10px;
   }
@@ -316,8 +319,9 @@ header{
 
   .textActivitesMarseille {
     width: 112px;
-    padding-left: 10px;
+    padding-left: 0px;
     margin-top: 0px;
+    padding-right: 170px;
   }
 
   #t1 {
@@ -384,7 +388,7 @@ header{
     padding-right: 0px;
     margin-left: 0px;
     padding-left: 30px;
-    width: 98%;
+    width: 94%;
   }
 
 
