@@ -1,83 +1,95 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 797px) {
   /**-------GENERALITES--------**/
-
+header{
+  width: 100%;
+}
   body {
     padding-bottom: 1%;
     margin-top: 3px;
-    padding-right: 0%;
-    width: 90%;
+    width: 100%;
     font-family: "Raleway", sans-serif;
     margin-top: 5px;
     padding-bottom: 1%;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
   }
 
   main {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: baseline;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-left: 0px;
-    width:95%;
+    align-items:center;
+    width:100%;
+    margin-left: 0px;
   }
 
   /*---------------HEADER------------*/
   .topnav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 95%;
   }
+
   .logo {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    width: 61.09px;
-    height: 19px;
+    
     object-fit: cover;
     margin-right: 0px;
     margin-left: 0%;
+   
   }
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
   }
+  .item{
+    margin-left: 10px;
+  }
+
   header ul li {
     margin-right: 0px;
   }
+
   .item:hover {
     border-top: none;
     border-bottom: solid 3px #0065fc;
+    padding-bottom: 19px;
   }
-  .AfficherPlus {
-    visibility: collapse;
-  }
+  
 
   /*------------SECTION RECHERCHE-------*/
+.title{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  
+ 
+  margin-left: 20px;
+  width: 90%;
+  min-height: 52px;
 
+}
   h1 {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 0px;
-    width: 298px;
+    width: 90%;
     min-height: 52px;
   }
 
   .subtitle {
     min-height: 19px;
-    width: 300px;
+    width: 90%;
     margin-left: 0px;
     margin-top: 30px;
+
   }
   .bouton_recherche {
     width: 49px;
@@ -110,6 +122,7 @@
   .research-box {
     margin-left: 0px;
     width: 180px;
+    
   }
 
   /*--------PARTIE FILTRES--------*/
@@ -181,44 +194,44 @@
   .hebergementsMarseille {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 90%;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+   
   }
   /*----------------------BLOC MARSEILLE----------*/
   .resultatsMarseille {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 90%;
-    padding-right: 0px;
-    padding-left: 0px;
-    background-color: #ffffff;
-    border-radius: 0px;
-    margin-right: 0px;
-  }
-  .blocMarseille {
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    background-color: #ffffff;
+    border-radius: 0px;
+   }
+
+  .blocMarseille {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     margin-top: 40px;
-    margin-left: 0px;
+    margin: auto;
     margin-bottom: 20px;
-    min-width: 300px;
     background-color: #ffffff;
     border-radius: 0px;
   }
+
   .premiersHotels {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 85%;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 0px;
+    margin: auto;
   }
 
   .imageGauche {
@@ -230,9 +243,9 @@
   .derniersHotels {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 85%;
+    justify-content: center;
+    align-items: center;
+   
   }
 
   .card {
@@ -246,24 +259,31 @@
     min-width: 300px;
     width: 85%;
   }
+
   figcaption {
     width: 85%;
   }
+
+  .AfficherPlus {
+    visibility: collapse;
+  }
+
   /**---------------------LES PLUS POPULAIRES----------**/
   .lesPlusPopulaires {
     align-items: baseline;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
     padding-left: 0px;
     width: 90%;
-    padding-right: 30px;
-    padding-left: 10px;
     border-radius: 0px;
-    margin-left: 0px;
   }
+
   .chambrePopulaire {
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
   }
+
   .h2populaires {
     margin-left: 0px;
     padding-left: 0px;
@@ -271,24 +291,24 @@
 
   .imageDroite {
     max-width: 246px;
-   
-   
     object-fit: cover;
     margin-left: 0px;
     margin-right: 0px;
-   
-  }
+   }
+
 
   .classement2 {
     margin-top: 50px;
   }
+
   .chambres {
     min-width: 260px;
     margin-right: 10px;
     margin-left: 10px;
   }
+
   aside{
-    width: 100%;
+    width: 90%;
     min-width: 280px;
   }
 
@@ -299,9 +319,9 @@
     padding-left: 10px;
     margin-top: 0px;
   }
+
   #t1 {
     min-width: 300px;
-   
     height: 134px;
     width: 85%;
     object-fit: cover;
@@ -313,12 +333,14 @@
     width: 85%;
     object-fit: cover;
   }
+
   #t3 {
     min-width: 300px;
     height: 134px;
     width: 85%;
     object-fit: cover;
   }
+
   #t4 {
     min-width: 300px;
     height: 134px;
@@ -337,21 +359,16 @@
     padding: 0px;
     margin-top: 30px;
     min-width: 300px;
-    width: 85%;
-    
-  }
+   }
  
-
-
-
   .activitesMarseille {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     padding-left: 0px;
     padding-right: 0px;
-    
+    width: 90%;    
   }
 
   /**------------------------FOOTER---------------------**/
@@ -363,11 +380,14 @@
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     padding-top: 25px;
-    width: 90%;
     margin-right: 0px;
     padding-right: 0px;
-  
+    margin-left: 0px;
+    padding-left: 30px;
+    width: 98%;
   }
+
+
   h5 {
     display: flex;
     flex-wrap: wrap;
@@ -376,19 +396,23 @@
   .blocFooterAPropos{
     margin-bottom: 30px;
   }
+
   .blocFooterAPropos h3{
     margin-bottom: 8px;
   }
+
   .blocFooterNosHebergements{
     margin-bottom: 30px;
-
   }
+
   .blocFooterNosHebergements h3{
     margin-bottom: 8px;
   }
+
   .blocFooterAssistance{
     margin-bottom: 30px;
   }
+
   .blocFooterAssistance{
     margin-bottom: 8px;
   }
