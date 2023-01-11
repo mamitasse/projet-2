@@ -374,7 +374,10 @@ header{
     padding-right: 0px;
     width: 90%;    
   }
-
+  #activity-1{
+    margin-left: 0px;
+  }
+  
   /**------------------------FOOTER---------------------**/
   .contenu-footer {
     display: flex;

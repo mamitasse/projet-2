@@ -12,6 +12,7 @@
   }
 
   main {
+    width: 96%;
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -29,6 +30,7 @@
   }
   .topnav {
     width: 95%;
+    margin-left: 20px;
   }
   .filters-section {
     margin-left: 0px;
@@ -44,10 +46,12 @@
   .hebergementsMarseille {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-left: 0%;
     padding-right: 0%;
-    width: 95%;
-    margin-left: 10px;
+    width: 98%;
+    margin-left: 20px;
   }
 
   .info {
@@ -65,22 +69,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    width: 95%;
+    width: 96%;
+  }
+  .resultatsMarseille{
+    width: 98%;
   }
 
   .premiersHotels {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left: 60px;
-    width: 98%;
+    width: 96%;
   }
 
   .derniersHotels {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left: 60px;
-    width: 98%;
+    width: 96%;
   }
 
   .imagesDroites {
@@ -98,7 +102,7 @@
     justify-content: space-around;
     padding-left: 0px;
     padding-right: 0px;
-    width: 98%;
+    width: 96%;
   }
 
   .imagesDroites {
@@ -135,27 +139,35 @@
     margin-right: 20px;
   }
 
+  .h2populaires{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .titreIcone{
+    margin-left: 0px;
+  }
+
   /**----------activites Marsreille--------------**/
 
   #t1 {
-    width: 182px;
+    width: 178px;
     height: 211px;
     border-radius: 20px 20px 0px 0px;
   }
 
   #t2 {
-    width: 182px;
+    width: 178px;
     height: 211px;
     border-radius: 20px 20px 0px 0px;
   }
 
   #t3 {
-    width: 182px;
+    width: 178px;
     height: 211px;
     border-radius: 20px 20px 0px 0px;
   }
   #t4 {
-    width: 182px;
+    width: 178px;
     height: 211px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -164,11 +176,11 @@
     margin-left: 10px;
     justify-content: space-around;
     margin-right: 0px;
-    width: 95%;
+    width: 97%;
   }
   
   .englobe {
-    width: 182px;
+    width: 180px;
 
     padding: 0px;
   }
@@ -179,13 +191,13 @@
 
   .activity__full-card {
     padding: 0px;
-    width: 182px;
+    width: 178px;
     height: 267px;
     padding: 0px;
     margin: 0px;
   }
   .card_title {
-    max-width: 182px;
+    max-width: 178px;
     padding-left: 0px;
   }
   #activity-1 {
@@ -219,7 +231,7 @@
     margin-left: 30p;
   }
   .contenu-footer {
-    width: 95%;
+    width: 97%;
     margin-left: 10px;
   }
 }
