@@ -5,16 +5,15 @@
   body {
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
     align-items: center;
     height: auto;
     margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   main {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   header {
@@ -23,9 +22,7 @@
   .filters-icon2 {
     margin-left: 0px;
   }
-.title{
-  width: 80%;
-}
+
   h1 {
     max-width: 75%;
     margin-left: 10px;
@@ -47,8 +44,6 @@
   .hebergementsMarseille {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-left: 0%;
     padding-right: 0%;
     width: 95%;
@@ -61,7 +56,7 @@
   }
   /**-----------bloc marseille----------**/
   .textHebergementsMarseille {
-    padding-right: 280px;
+    margin-left: 20px;
   }
 
   .blocMarseille {
@@ -70,24 +65,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 99%;
-    padding-left: 0px;
-    padding-right: 0px;
+    align-items: baseline;
+    width: 95%;
   }
 
   .premiersHotels {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 99%;
- 
+    padding-left: 60px;
+    width: 98%;
   }
 
   .derniersHotels {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 99%;
-
-   
+    padding-left: 60px;
+    width: 98%;
   }
 
   .imagesDroites {
@@ -105,7 +98,7 @@
     justify-content: space-around;
     padding-left: 0px;
     padding-right: 0px;
-    width: 97%;
+    width: 98%;
   }
 
   .imagesDroites {
@@ -168,7 +161,7 @@
   }
 
   .activitesMarseille {
-    margin-left: 0px;
+    margin-left: 10px;
     justify-content: space-around;
     margin-right: 0px;
     width: 95%;
@@ -176,6 +169,7 @@
   
   .englobe {
     width: 182px;
+
     padding: 0px;
   }
 
@@ -212,32 +206,20 @@
     padding-top: 10px;
   }
 
- 
+  .blocFooterAPropos {
+    margin-left: 40px;
+    margin-right: 85px;
+  }
+
+  .blocFooterAssistance {
+    margin-left: 150px;
+    padding-right: 75px;
+  }
   .AfficherPlus {
-    margin-left: 30px;
+    margin-left: 30p;
   }
   .contenu-footer {
-    justify-content: space-around;
-    align-items:flex-start;
-    width: 93%;
-    margin-right: 0px;
-    padding-right: 0px;
-  }
-
-
-  footer{
-    width: 98%;
-  }
-
-  .blocFooterNosHebergements{
-  margin-left: 0px;
-  }
-
-  .blocFooterAssistance{
-    margin-left: 0px;
-  }
-
-  .blocFooterAssistance{
-    margin-bottom: 8px;
+    width: 95%;
+    margin-left: 10px;
   }
 }
