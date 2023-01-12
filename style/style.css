@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  width: 95%;
+  width: 100%;
   font-family: "Raleway", sans-serif;
   margin-top: 5px;
   padding-bottom: 10px;
@@ -32,14 +32,14 @@ a {
 
 /*---------------HEADER------------*/
 header {
-  width: 97%;
+  width: 100%;
 }
 .topnav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
-  width: 90%;
+  width:100%;
 }
 .topnav a {
   color: black;
@@ -129,7 +129,6 @@ h1 {
   flex-direction: row;
   align-items: center;
   border-radius: 0px 15px 15px 0px;
-  margin-left: 30px;
 }
 
 .loupe_icone {
@@ -178,7 +177,7 @@ input::placeholder {
 }
 
 form input {
-  height: 100%;
+  height: 49px;
   border: none;
   padding-left: 8px;
   border-top: solid 1.5px #f2f2f2;
@@ -326,7 +325,7 @@ form button {
   align-items: center;
   padding-left: 0px;
   margin-left: 20px;
-  width: 97%;
+  width: 100%;
   margin-bottom: 40px;
   margin-right: 0px;
   padding-right: 0px;
@@ -580,8 +579,8 @@ figure:hover {
   border-radius: 25px;
   margin-top: 0px;
   border-radius: 25px;
-  margin-left: 20px;
-  margin-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
   width: 250px;
   margin-bottom: 20px;
 }
@@ -624,9 +623,9 @@ figure:hover {
   justify-content: space-around;
   background-color: #ffffff;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-right: 0px;
-  width: 94%;
+  width: 100%;
 }
 .card__title {
   padding-top: 20px;
@@ -654,12 +653,12 @@ figure:hover {
   justify-content: space-around;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  width: 98%;
+  width: 100%;
   padding-left: 0px;
   padding-top: 45px;
   padding-bottom: 25px;
   margin-right: 0px;
-  margin-left: 20px;
+  margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -691,10 +690,17 @@ footer a {
   font-weight: 400;
   
 }
+
 footer{
-  width: 96%;
-  margin-right: 0px;
+  width: 100%;
+  margin-right:0px;
+  margin-left:0px;
 }
+
+
+
+
+
 
 
 
